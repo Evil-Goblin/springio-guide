@@ -3,3 +3,16 @@ de:
     mongodb:
       embedded:
         version: 6.0.11
+
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
+      mongodb:
+        driver:
+          protocol:
+            command: DEBUG
